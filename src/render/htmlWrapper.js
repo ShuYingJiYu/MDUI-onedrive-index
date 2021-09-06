@@ -40,7 +40,7 @@ export function renderHTML(body, pLink, pIdx) {
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>书樱寄语 - CloudDrive</title>
+    <title>CloudDrive - 书樱寄语</title>
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="${favicon}" />
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/spencer.css"
@@ -131,8 +131,8 @@ export function renderHTML(body, pLink, pIdx) {
     <a data-easing="easeInOutCubic" href="#top"><span class="mdui-fab mdui-fab-fixed mdui-color-theme-accent mdui-ripple">
         <i class="mdui-icon material-icons">keyboard_arrow_up</i></span></a>
     <footer id="footer" data-turbolinks-permanent>
-      <p>Powered by <a href="https://github.com/ShuYingXuYu/MDUI-onedrive-index">MDUI-onedrive-index</a>, hosted on <a
-          href="https://www.cloudflare.com/products/cloudflare-workers/">Cloudflare Workers</a>.</p>
+      <p>Powered by <a href="https://github.com/ShuYingJiYu/MDUI-onedrive-index">MDUI-onedrive-index</a>, hosted on <a
+          href="https://workers.cloudflare.com/">Cloudflare Workers</a>.</p>
     </footer>
     <script>
       if (typeof ap !== "undefined" && ap.paused !== true) {
